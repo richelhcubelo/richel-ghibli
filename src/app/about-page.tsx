@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Film } from "./film.interface";
-import "./about-page.scss"; // Import your SCSS file for styling
+import "./about-page.scss"; 
 
 export function AboutPage() {
   const { filmId } = useParams();

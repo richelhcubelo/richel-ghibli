@@ -23,7 +23,7 @@ export function HomePage() {
       <header className="app-header">
       <img src={ghibliLogo} alt="Ghibli Logo" />
         <h1>Welcome to Ghibli Films</h1>
-        <p>The  Best Film Ever</p>
+       
       </header>
       <div className="film-grid">
         {films.map((film) => (

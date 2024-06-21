@@ -3,10 +3,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #cdd0b0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  background-image: url('583.jpg');  
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
 
   .app-header {
-    background-color: #d4dead;
+    background-color: #ffffff;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -43,7 +50,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e0f7fa;
+    background-color: rgba(224, 247, 250, 0.8);
     border-radius: 8px 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
